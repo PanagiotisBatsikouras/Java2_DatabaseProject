@@ -3,12 +3,12 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>dbtest</groupId>
-	<artifactId>testingrepo</artifactId>
+	<groupId>javameister</groupId>
+	<artifactId>dbproject</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>testingrepo</name>
+	<name>Java2_DatabaseProject</name>
 	<url>http://maven.apache.org</url>
 
 	<build>
@@ -64,7 +64,7 @@
 					<effort>medium</effort>
 					<!-- Reports bugs (other values are medium and max) -->
 					<threshold>Low</threshold>
-					<!--Build deos not fail if errors exist -->
+					<!--Build does not fail if errors exist -->
 					<failOnError>false</failOnError>
 					<!-- Produces XML report -->
 					<xmlOutput>true</xmlOutput>
