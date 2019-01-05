@@ -2,6 +2,7 @@ package javameister.dbproject;
 import java.util.*;
 
 class Insertion {
+	
 	private static int counter = 0;
 	private static int code = 0;
 	
@@ -9,10 +10,7 @@ class Insertion {
 		System.out.println( "this is our insertion class" );
 	}
 	
-	/**
-	 * 
-	 * recursive method that takes input from user in order to create the database
-	 */
+	
 	public static void insertData() {
 		
 		Scanner input = new Scanner(System.in);
@@ -40,11 +38,9 @@ class Insertion {
 			insertData();
 		}
 	}
-	/**
-	 * 
-	 * method that let the user create the name of the columns-the fields of each insertion
-	 * this method also generates automatically an extra column with a unique key for each insertion
-	 */
+	
+	
+	
 	public static void columnsName() {
 		
 		Scanner input = new Scanner(System.in);

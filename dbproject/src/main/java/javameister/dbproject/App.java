@@ -7,6 +7,7 @@ import java.util.InputMismatchException;
  *
  */
 public class App {
+	
 	public static void main( String[] args ) {
 		System.out.println("Welcome to Javamaister Database");
 		try {
@@ -17,16 +18,17 @@ public class App {
 	}
 	
 	
-	/**
-	 *  method that prints basic menu for user
-	 *  the method reads user choice for the basic menu
-	 *  and calls the appropriate methods from the other 
-	 */
+	
 	public static void getMenu() {
+		
 		Scanner input = new Scanner(System.in);
+		
 		boolean flag = true;
+		
 		int choice;
+		
 		try {
+			
 			do {
 				System.out.println();
 				System.out.println("***Menu***");
@@ -60,11 +62,15 @@ public class App {
 					break;
 				}
 			} while(flag);
+			
 		} catch (InputMismatchException e) {
 			System.out.println("An error occurred during your input. The program will be terminated. Sorry for any inconvenience.");
 		} finally  {
 			input.close();
 		}
-			input.close();
+		
+		input.close();
+		
 	}
+	
 }
