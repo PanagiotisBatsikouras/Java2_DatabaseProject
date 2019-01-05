@@ -12,9 +12,9 @@ class Database {
 		
 	}
 	
-	public Database(ArrayList<String> row) {
-		this.row = row;
-		aList.add(this.row);
+	public Database(ArrayList<String> rowIn) {
+		row = rowIn;
+		aList.add(row);
 		
 	}
 	
@@ -23,17 +23,22 @@ class Database {
 		return row;
 	}
 
-	public void setRow(ArrayList<String> row) {
-		this.row = row;
-	}
+	/*useless method. still has warning*/
+	/*
+	public void setRow(ArrayList<String> rowIn) {
+		row = rowIn;
+	}*/
 
 	public static ArrayList<ArrayList<String>> getaList() {
 		return aList;
 	}
-
-	public void setaList(ArrayList<ArrayList<String>> aList) {
-		this.aList = aList;
+	
+	/*useless method, still has warning*/
+	/*
+	public void setaList(ArrayList<ArrayList<String>> aListIn) {
+		aList = aListIn;
 	}
+	*/
 	
 
 }
