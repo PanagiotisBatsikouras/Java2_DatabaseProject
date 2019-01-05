@@ -17,7 +17,7 @@ class Insertion {
 		
 		Scanner input = new Scanner(System.in);
 		if (counter == 0) {
-			//columnsName();
+			columnsName();
 			counter += 1;
 		}
 		String element = null;
@@ -39,5 +39,35 @@ class Insertion {
 		if (element.equals("nextline")) {
 			insertData();
 		}
+	}
+	/**
+	 * 
+	 * method that let the user create the name of the columns-the fields of each insertion
+	 * this method also generates automatically an extra column with a unique key for each insertion
+	 */
+	public static void columnsName() {
+		
+		Scanner input = new Scanner(System.in);
+		
+		String element=null;
+		
+		ArrayList<String> b = new ArrayList<String>();
+		
+		System.out.println("Insert the titles of data.");
+		System.out.println("Press enter to enter the next column of this line.");
+		System.out.println("Type 0 when you wish to stop.");
+		
+		b.add("Code");
+		
+		do {
+			element = input.next().toLowerCase();
+			
+			if (!element.equals("0")) {	
+				b.add(element);
+			}
+			
+		} while (!element.equals("0"));
+		//new Database(b);
+		
 	}
 }
