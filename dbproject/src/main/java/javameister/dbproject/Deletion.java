@@ -9,8 +9,8 @@ import java.util.Scanner;
 
 public class Deletion {
 	/**
-	 * method that deletes an insertion from database
-	 * user chooses the insertion based on an unique auto-generated code.
+	 * method that deletes an insertion from database.
+	 * user chooses the insertion based on an unique auto-generated code
 	 */
 	public static void deleteData() {
 		System.out.println("this is our deletion class");
