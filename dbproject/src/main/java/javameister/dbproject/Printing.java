@@ -5,6 +5,6 @@ package javameister.dbproject;
  * @author Javameister.
  *
  */
-class Printing {
-
+public class Printing {
+	
 }

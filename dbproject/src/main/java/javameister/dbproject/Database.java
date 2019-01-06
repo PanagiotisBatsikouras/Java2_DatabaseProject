@@ -30,6 +30,7 @@ class Database {
 	 *
 	 * @param rowIn parameter.
 	 */
+	
 	public Database(ArrayList<String> rowIn) {
 		row = rowIn;
 		aList.add(row);
@@ -43,28 +44,21 @@ class Database {
 	public static ArrayList<String> getRow() {
 		return row;
 	}
-
-	/*useless method. still has warning*/
-	/*
-	public void setRow(ArrayList<String> rowIn) {
-		row = rowIn;
-	}*/
-
-	/**
-	 *
-	 * @return aList.
-	 */
+	
 	public static ArrayList<ArrayList<String>> getaList() {
 		return aList;
 	}
-
-	/*useless method, still has warning*/
-	/*
-	public void setaList(ArrayList<ArrayList<String>> aListIn) {
-		aList = aListIn;
+	
+	public static void printer() {
+		for (ArrayList<String> D: aList) {
+			System.out.println(D);
+			}
 	}
-	*/
-
-
-
+	public static void printer2() {
+		ArrayList<String> a = new ArrayList<String>();
+		a = aList.get(0);
+		for ( int i = 1; i < a.size(); i++) {
+			System.out.println(" " + i + ". " + a.get(i));
+		}
+ 	}
 }
