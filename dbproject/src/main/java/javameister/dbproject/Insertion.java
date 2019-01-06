@@ -57,7 +57,7 @@ class Insertion {
      */
     public static void columnsName() {
 
-        Scanner input = new Scanner(System.in);
+        Scanner input2 = new Scanner(System.in);
 
         String element = null;
 
@@ -71,7 +71,7 @@ class Insertion {
         b.add("Code");
 
         do {
-            element = input.next().toLowerCase();
+            element = input2.nextLine();
 
             if (!element.equals("0")) {
                 b.add(element);
