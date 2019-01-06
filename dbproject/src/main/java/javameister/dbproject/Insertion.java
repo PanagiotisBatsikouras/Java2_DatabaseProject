@@ -49,7 +49,7 @@ class Insertion {
 			}
 		} while (!element.equals("nextline")
 				&& !element.equals("endofinput"));
-		//new Database(a);
+		new Database(a);
 		if (element.equals("nextline")) {
 			insertData();
 		}
@@ -82,7 +82,7 @@ class Insertion {
 			}
 
 		} while (!element.equals("0"));
-		//new Database(b);
+		new Database(b);
 
 	}
 }

@@ -69,16 +69,16 @@ public class App {
 				System.out.println();
 				switch (choice) {
 				case SELECTION1 :
-					//Insertion.insertData();
+					Insertion.insertData();
 					break;
 				case SELECTION2 :
-					//Printing.displayData();
+					Printing.displayData();
 					break;
 				case SELECTION3 :
-					//Deletion.deleteData();
+					Deletion.deleteData();
 					break;
 				case SELECTION4 :
-					//Modification.changeData();
+					Modification.changeData();
 					break;
 				case SELECTION5 :
 					flag = false;

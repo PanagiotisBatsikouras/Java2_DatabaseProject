@@ -16,13 +16,15 @@ public class Deletion {
 		System.out.println("this is our deletion class");
 		Scanner sc = new Scanner(System.in);
 		Database.printer();
-		System.out.println("Please select the code of the data you wish to delete ");
-		String x = (" " +sc.nextInt());
+		System.out.println("Please select the code "
+		        + "of the data you wish to delete ");
+		String x = (" " + sc.nextInt());
 		for (int i = 0; i < Database.getaList().size(); i++) {
 			if (Database.getaList().get(i).contains(x)) {
-				 Database.getaList().remove( Database.getaList().get(i));
+				 Database.getaList().remove(
+				 Database.getaList().get(i));
 			}
-			
+
 		}
 	}
 
