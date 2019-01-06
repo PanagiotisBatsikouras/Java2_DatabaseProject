@@ -29,7 +29,8 @@ class Modification {
         y = sc.nextInt();
         String el;
         System.out.println("Please enter the new element ");
-        el = sc.next().toLowerCase();
+        Scanner scanner = new Scanner(System.in);
+        el = scanner.nextLine();
         for (int i = 0; i < Database.getaList().size(); i++) {
 
             if (Database.getaList().get(i).contains(x)) {
