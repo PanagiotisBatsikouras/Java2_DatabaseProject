@@ -1,34 +1,61 @@
 package javameister.dbproject;
-import java.util.Scanner;
 import java.util.InputMismatchException;
+import java.util.Scanner;
 
 /**
- * main class for program execution
+ * main class for program execution.
  *
  */
 public class App {
-	
-	public static void main( String[] args ) {
+
+	/**
+	 * @param SELECTION1.
+	 */
+	public static final int SELECTION1 = 1;
+	/**
+	 * @param SELECTION2.
+	 */
+	public static final int SELECTION2 = 2;
+	/**
+	 * @param SELECTION3.
+	 */
+	public static final int SELECTION3 = 3;
+	/**
+	 * @param SELECTION4.
+	 */
+	public static final int SELECTION4 = 4;
+	/**
+	 * @param SELECTION5.
+	 */
+	public static final int SELECTION5 = 5;
+
+	/**
+	 * Main method for program execution.
+	 * @param args argument
+	 */
+	public static void main(final String[] args) {
 		System.out.println("Welcome to Javamaister Database");
 		try {
 			getMenu();
 		} catch (Exception e) {
-			
+
 		}
 	}
-	
-	
-	
+
+
+	/**
+	 * getMenu Method.
+	 */
 	public static void getMenu() {
-		
+
 		Scanner input = new Scanner(System.in);
-		
+
 		boolean flag = true;
-		
+
 		int choice;
-		
+
 		try {
-			
+
 			do {
 				System.out.println();
 				System.out.println("***Menu***");
@@ -38,39 +65,44 @@ public class App {
 				System.out.println("4. Change Data");
 				System.out.println("5. Exit Database");
 				System.out.println("Make your choice: ");
-				choice = input.nextInt() ;
+				choice = input.nextInt();
 				System.out.println();
-				switch(choice) {
-				case 1 :
+				switch (choice) {
+				case SELECTION1 :
 					//Insertion.insertData();
 					break;
-				case 2 :
+				case SELECTION2 :
 					//Printing.displayData();
 					break;
-				case 3 :
+				case SELECTION3 :
 					//Deletion.deleteData();
 					break;
-				case 4 :
+				case SELECTION4 :
 					//Modification.changeData();
 					break;
-				case 5 :
+				case SELECTION5 :
 					flag = false;
-					System.out.println("Thank you for using our database! Goodbye!");
+					System.out.println(""
+							+ "Thank you for "
+							+ "using our "
+							+ "database! Goodbye!");
 					break;
 				default:
 					System.out.println("Invalid choice");
 					break;
 				}
-			} while(flag);
-			
+			} while (flag);
 		} catch (InputMismatchException e) {
-			System.out.println("An error occurred during your input. The program will be terminated. Sorry for any inconvenience.");
+			System.out.println("An error occurred during "
+					+ "your input. The program will be "
+					+ "terminated. "
+					+ "Sorry for any inconvenience.");
 		} finally  {
 			input.close();
 		}
-		
+
 		input.close();
-		
+
 	}
-	
+
 }
