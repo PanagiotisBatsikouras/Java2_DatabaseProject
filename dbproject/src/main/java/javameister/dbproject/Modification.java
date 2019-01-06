@@ -9,6 +9,11 @@ import java.util.Scanner;
  */
 class Modification {
 
+    /**
+     *
+     * method that modifies a specific field of the already existing insertions
+     * of user.
+     */
     public static void changeData() {
 
         Scanner sc = new Scanner(System.in);
