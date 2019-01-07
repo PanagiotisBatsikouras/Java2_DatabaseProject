@@ -1,9 +1,17 @@
+/*
+ * Database class
+ *
+ * Copyright 2019 Javameister team
+ *
+ */
 package javameister.dbproject;
 import java.util.ArrayList;
 
 /**
+ *This class is responsible for storing the data and providing basic methods for
+ *storing and printing them.
  *
- * @author Javameister.
+ * @author Javameister team.
  *
  */
 class Database {

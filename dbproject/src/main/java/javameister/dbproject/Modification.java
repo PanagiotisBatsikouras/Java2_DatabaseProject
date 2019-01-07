@@ -1,10 +1,21 @@
+/*
+ * Modification class
+ *
+ * Copyright 2019 Javameister team
+ *
+ */
 package javameister.dbproject;
 
 import java.util.Scanner;
 
 /**
+ *This class provides a method for modification of the fields.
+ *First it prints the existing insertions, the asks from the user to enter
+ *the code of the insertion he wants to modify, after that prints the existing fields
+ *with their codes and then asks from the user to select the field he wants to modify.
+ *Then the user gives the new value of the field and he is redirected to the basic menu.
  *
- * @author Javameister.
+ * @author Javameister team.
  *
  */
 class Modification {

@@ -1,8 +1,16 @@
+/*
+ * Printing class
+ *
+ * Copyright 2019 Javameister team
+ *
+ */
 package javameister.dbproject;
 
 /**
+ *This class has the method that is called when the user selects
+ * option 2 in order to view his database.
  *
- * @author Javameister.
+ * @author Javameister team.
  *
  */
 public class Printing {

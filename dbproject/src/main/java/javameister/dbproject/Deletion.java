@@ -1,11 +1,20 @@
-package javameister.dbproject;
-
-/**
+/*
+ * Deletion class
  *
- * @author Javameister.
+ * Copyright 2019 Javameister team
  *
  */
+package javameister.dbproject;
 import java.util.Scanner;
+
+/**
+ *This class is provided with the method for the deletion of a specific insertion.
+ *The user enters the unique auto-generated code of the insertion he wants delete
+ *and then this insertion is deleted from the database.
+ *
+ * @author Javameister team.
+ *
+ */
 
 public class Deletion {
     /**

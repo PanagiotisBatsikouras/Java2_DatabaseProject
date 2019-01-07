@@ -1,10 +1,25 @@
+/*
+ * Deletion class
+ *
+ * Copyright 2019 Javameister team
+ *
+ */
 package javameister.dbproject;
 import java.util.ArrayList;
 import java.util.Scanner;
 
 /**
+ *This is the basic class for the creation of the database based in user input.
+ *It provides 2 methods. The method columnname() that let the user enter the name
+ *of the fields aka columns in his database. The method insertData() is responsible
+ *for consecutive reading of users input and storing in it using Database class methods and variables.
+ *The methods give exact directions to the user on how to write his insertions. Specifically
+ *each field insertion is separated with "enter". The user in order to enter the insertions of
+ *another line writes "nextline" and "endofinput" when he is done with the insertion.
+ *The method insertData() provides each insertion with a unique code, like a primary key
+ *that is used for the other use cases.
  *
- * @author Javameister.
+ * @author Javameister team.
  *
  */
 class Insertion {

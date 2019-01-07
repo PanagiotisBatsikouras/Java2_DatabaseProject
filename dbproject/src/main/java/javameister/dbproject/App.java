@@ -1,9 +1,20 @@
+/*
+ * App class
+ *
+ * Copyright 2019 Javameister team
+ *
+ */
 package javameister.dbproject;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
 /**
- * main class for program execution.
+ * Main class for program execution.
+ * The class contains the main method for program execution and also provides
+ * a method that takes user input and calls the appropriate methods for the
+ * program use cases
+ *
+ * @author Javameister team
  *
  */
 public class App {
