@@ -9,7 +9,7 @@ import java.util.Scanner;
 
 /**
  *This class is provided with the method for the deletion of a specific insertion.
- *The user enters the unique auto-generated code of the insertion he wants delete
+ *The deletion process starts with the user who enters the unique auto-generated code of the insertion he wants delete
  *and then this insertion is deleted from the database.
  *
  * @author Javameister team.
@@ -18,8 +18,8 @@ import java.util.Scanner;
 
 public class Deletion {
     /**
-     * method that deletes an insertion from database user chooses the insertion
-     * based on an unique auto-generated code.
+     * deletion method for deleting an existing insertion from the database
+     * user chooses the insertion based on a unique auto-generated code.
      */
     public static void deleteData() {
 
