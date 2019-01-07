@@ -8,7 +8,7 @@ package javameister.dbproject;
 
 /**
  *This class has the method that is called when the user selects
- * option 2 in order to view his database.
+ * option 2 in order to view the database his has created.
  *
  * @author Javameister team.
  *
@@ -16,9 +16,8 @@ package javameister.dbproject;
 public class Printing {
 
     /**
-     * .
      *
-     * method that prints a general display if database
+     * Print method that prints the general display of the current database.
      */
     public static void displayData() {
         System.out
