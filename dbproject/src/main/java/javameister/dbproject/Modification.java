@@ -22,8 +22,8 @@ class Modification {
 
     /**
      *
-     * method that modifies a specific field of the already existing insertions
-     * of user.
+     * Change data method that modifies a specific field of the already existing insertions
+     * of user. The user chooses the field, and types the new value of the element he wants to change.
      */
     public static void changeData() {
 
