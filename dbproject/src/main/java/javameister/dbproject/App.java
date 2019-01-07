@@ -10,8 +10,8 @@ import java.util.Scanner;
 
 /**
  * Main class for program execution.
- * The class contains the main method for program execution and also provides
- * a method that takes user input and calls the appropriate methods for the
+ * This class contains the main method for program execution and also provides
+ * the method that takes user's input and calls the appropriate methods for the
  * program use cases
  *
  * @author Javameister team
@@ -41,7 +41,7 @@ public class App {
     public static final int SELECTION5 = 5;
 
     /**
-     * Main method for program execution.
+     * Main method for the execution of the program.
      *
      * @param args
      *            argument
@@ -56,7 +56,7 @@ public class App {
     }
 
     /**
-     * getMenu Method.
+     * getMenu Method for printing the available options and calling the corresponding methods.
      */
     public static void getMenu() {
 
