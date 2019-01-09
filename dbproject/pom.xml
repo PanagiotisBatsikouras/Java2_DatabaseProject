@@ -82,6 +82,22 @@
 					</execution>
 				</executions>
 			</plugin>
+			
+			<!-- Plugin for main class manifest attribute error in default jar file-For submission -->
+			<plugin>
+    	   <groupId>org.apache.maven.plugins</groupId>
+    	   <artifactId>maven-jar-plugin</artifactId>
+         <version>3.1.1</version>
+    	   <configuration>
+    	      <archive>
+    	         <manifest>
+                    <mainClass>javameister.dbproject.App</mainClass>
+    	         </manifest>
+    	      </archive>
+    	   </configuration>
+   </plugin>
+			<!-- end of jar plug in  -->
+			
 		</plugins>
 	</build>
 
