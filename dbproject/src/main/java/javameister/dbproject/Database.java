@@ -8,8 +8,9 @@ package javameister.dbproject;
 import java.util.ArrayList;
 
 /**
- *This class is responsible for storing and printing the data by providing basic methods for
- *storing and printing.
+ *This the core of the database.
+ *This class is responsible for storing and printing the data by
+ *providing basic methods for storing and printing.
  *
  * @author Javameister team.
  *
@@ -24,7 +25,8 @@ class Database {
     /**
      * @param aList.
      */
-    private static ArrayList<ArrayList<String>> aList = new ArrayList<ArrayList<String>>();
+    private static ArrayList<ArrayList<String>> aList =
+            new ArrayList<ArrayList<String>>();
 
     /**
      * Empty constructor.

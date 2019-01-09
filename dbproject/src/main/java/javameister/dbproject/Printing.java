@@ -7,6 +7,7 @@
 package javameister.dbproject;
 
 /**
+ *Class that calls printers.
  *This class has the method that is called when the user selects
  * option 2 in order to view the database his has created.
  *

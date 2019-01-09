@@ -9,15 +9,19 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 /**
- *This is the basic class for the creation of the database based in user input.
- *It provides 2 methods. The method columnname() that let the user enter the name
- *of the fields which are the columns in his database. The method insertData() is responsible
- *for consecutive reading of users input and storing in it using Database class methods and variables.
- *The methods give exact directions to the user on how to write his insertions. Specifically
- *each field insertion is separated with "enter". The user in order to enter the insertions of
- *another line types "nextline" and "endofinput" when he is done with the insertion.
- *The method insertData() provides each insertion with a unique code, like a primary key
- *that is used for the other use cases.
+ *This is the basic class for the creation of the database .
+ * It's based in user input. It provides 2 methods. The method
+ * columnname() that let the user enter the name of the
+ * fields which are the columns in his database.
+ * The method insertData() is responsible for consecutive
+ * reading of users input and storing in it using Database
+ * class methods and variables. The methods give exact directions
+ * to the user on how to write his insertions. Specifically each
+ * field insertion is separated with "enter". The user in order
+ * to enter the insertions of another line types "nextline" and
+ * "endofinput" when he is done with the insertion.
+ * The method insertData() provides each insertion with a unique
+ * code, like a primary key that is used for the other use cases.
  *
  * @author Javameister team.
  *
@@ -35,7 +39,8 @@ class Insertion {
     private static int code = 0;
 
     /**
-     * Recursive method for data insert which asks the user to insert or change data one by one until he wants to stop.
+     * Recursive method for data insert which asks the user to insert
+     *  or change data one by one until he wants to stop.
      */
     public static void insertData() {
 
@@ -68,7 +73,8 @@ class Insertion {
     }
 
     /**
-     * Column method that takes the user's columns by asking him the titles one by one.
+     * Column method that takes the user's columns by asking
+     * him the titles one by one.
      */
     public static void columnsName() {
 

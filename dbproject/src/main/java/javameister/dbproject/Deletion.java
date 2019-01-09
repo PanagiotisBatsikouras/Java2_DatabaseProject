@@ -8,9 +8,11 @@ package javameister.dbproject;
 import java.util.Scanner;
 
 /**
- *This class is provided with the method for the deletion of a specific insertion.
- *The deletion process starts with the user who enters the unique auto-generated code of the insertion he wants delete
- *and then this insertion is deleted from the database.
+ *This is the class that executes deletion.
+ *This class is provided with the method for the deletion of a specific
+ * insertion. The deletion process starts with the user who enters the unique
+ * auto-generated code of the insertion he wants delete
+ * and then this insertion is deleted from the database.
  *
  * @author Javameister team.
  *
